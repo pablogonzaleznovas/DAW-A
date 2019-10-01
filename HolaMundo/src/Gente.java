@@ -13,32 +13,25 @@ public Gente(String nombre, int edad, String dni, char sexo,double peso, double 
             this.peso = peso;
             this.altura = altura;
 }
-
 //Métodos 
 public double calcularIMC(){
     return (this.peso/Math.pow(this.altura,2));    
 }
-
 boolean esMayorEdad(){
     return (this.edad>=18);    
 }
-
 boolean esCorrectoSexo(char sexo){
     return ((sexo=='H')||(sexo=='M'));    
 }
-
 public boolean esCorrectaEdad(int edad){
     return (edad>0 && edad<150);    
 }
-
 //Metodo
 public String mostrarinformacion() {
 String info="## Nombre: "+nombre+", Edad: "+edad+", DNI: "+dni+", Sexo: "+sexo+", Peso: "+peso+" Atltura: "+altura+" ##";        
 return info;
 }
-
 //Getter y Setter
-
     public char getSexo() {
         return sexo;
     }    

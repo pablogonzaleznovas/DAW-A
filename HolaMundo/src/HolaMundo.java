@@ -5,8 +5,7 @@ public class HolaMundo {
 		// TODO Apéndice de método generado automáticamente
 		
 		System.out.println("Hola Mundo.");
-		
-		System.out.println("Mostramos información errónea para volver a restaurar a versión anterior.");
+
 	}
 
 }
