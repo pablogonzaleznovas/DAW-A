@@ -11,7 +11,14 @@ public class Coche {
         this.modelo = modelo;
         this.precio = precio;
     }
-   
+ 
+//Método para mostar    
+    public String mostrarinfo(){
+        String info="El coche "+marca+"-"+modelo+" tiene un precio de "+precio+"€";
+    return info;
+    }
+        
+    
 //Getters y Setters    
 	public String getMarca() {
 		return marca;
